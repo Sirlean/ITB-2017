@@ -10,6 +10,9 @@ namespace lista2_exer5
     {
         static void Main(string[] args)
         {
+           
+            //Elabore uma aplicação que receba um número inteiro e indique se o número é divisível por 5. 
+          
             //Declaração de variável
             int N1 = 0;
             int Divisor = 5;

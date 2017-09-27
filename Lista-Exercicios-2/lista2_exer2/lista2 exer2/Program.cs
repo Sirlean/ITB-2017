@@ -10,6 +10,8 @@ namespace lista2_exer2
     {
         static void Main(string[] args)
         {
+            //Elabore uma aplicação que mostre o resultado das potencias de 3, variando de 0 a 20. 
+
             //Declaração de variável
             int @base = 0;
          

@@ -10,6 +10,10 @@ namespace lista2_exer4
     {
         static void Main(string[] args)
         {
+
+            //Elabore uma aplicação que apresente o resultado da soma e da média aritmética dos valores
+           //pares situados na faixa de 50 a 70.
+
            //Declaração de Variável
             int somatorio = 0, totalpares = 0, i = 0;
             double media;

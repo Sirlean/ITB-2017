@@ -10,6 +10,9 @@ namespace lista2_exer1
     {
         static void Main(string[] args)
         {
+            //1.Elabore uma aplicação que receba dois valores quaisquer 
+            //e em seguida realizar a subtração do maior número pelo menor número. 
+            
             //Declaração de variáveis
             double N1 = 0;
             double N2 = 0;
@@ -23,7 +26,6 @@ namespace lista2_exer1
             Console.WriteLine("entre com o segundo valor");
             N2 = Convert.ToDouble(Console.ReadLine());
 
-            // calcular
             if (N1 > N2)
             {
                 resultado = N1 - N2;

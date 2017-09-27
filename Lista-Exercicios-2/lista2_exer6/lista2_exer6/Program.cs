@@ -10,7 +10,11 @@ namespace lista2_exer6
     {
         static void Main(string[] args)
         {
-            //decalração de uma variável
+             // Elabore uma aplicação que receba um valor inteiro e em seguida mostre este número por
+            // extenso caso seja maior ou igual a 1 e menor ou igual a 10, caso o número não esteja situado
+           //nesta faixa mostrar a mensagem “Valor fora da faixa!”.
+          
+          //Decalração de uma variável
             int n1 = 0;
 
             Console.WriteLine("entre com primeiro valor");

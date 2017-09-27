@@ -10,6 +10,11 @@ namespace lista2_exer8
     {
         static void Main(string[] args)
         {
+            // Elabore uma aplicação que receba um número inteiro e indique se o número é par ou ímpar.
+            //Declaração de variável
+     
         }
+
+
     }
 }

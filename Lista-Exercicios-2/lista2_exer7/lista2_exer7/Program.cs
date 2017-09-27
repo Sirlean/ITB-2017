@@ -10,8 +10,10 @@ namespace lista2_exer7
     {
         static void Main(string[] args)
         {
-            //declaração de variável
+                    //Elabore uma aplicação que receba um número inteiro e apresente o fatorial deste número.
+        //Declaração de variável
             int n1 = 0;
+
 
         }
     }
