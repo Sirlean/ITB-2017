@@ -10,27 +10,31 @@ namespace Lista2_exer3
     {
         static void Main(string[] args)
         {
-            int valorbase = 0;
-            int valorexpoente = 0;
-            int valorretorno = 0;
+            //Elabore uma aplicação web que receba os valores da base e do expoente de uma potência e em
+            //seguida execute o cálculo desta potência (obs.faça o cálculo usando laços de repetição e desvio
+            //condicionais). 
+            int valorBase = 0;
+            int valorExpoente = 0;
 
-            // Entrada de dados
-            Console.WriteLine("Digite a base");
-            valorbase = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite da base:");
+            valorBase = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Digite o expoente");
-            valorexpoente = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Digite da expoente:");
+            valorExpoente = Convert.ToInt32(Console.ReadLine());
 
-            //Processamento dos dados
-            valorbase = valorexpoente;
-            for (int i = 1; i < valorexpoente; i++);
+            // 2 ^ 4
+            // 2 * 2 * 2 * 2
+
+            int valorRetorno = valorBase;
+
+            for (int i = 1; i < valorExpoente; i++)
             {
-                valorretorno = valorbase * valorexpoente;
+                valorRetorno = valorRetorno * valorBase;
             }
-                Console.WriteLine("o valor retorno");
-                Console.WriteLine(valorretorno);
-                Console.Read();
 
+            Console.WriteLine("O valor retornado é [{0}]", valorRetorno);
+
+            Console.Read();
         }
     }
 }
